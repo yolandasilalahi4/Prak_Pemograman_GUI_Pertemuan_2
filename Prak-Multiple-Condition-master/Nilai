@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.17134.648]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Yolanda Silalahi>python
+Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+IndentationError: expected an indented block
+>>> def Nilai(nilai):
+...     if(nilai<=100 and nilai>=80):
+...             print("Nilai A")
+...     elif(nilai<80 and nilai >=70):
+...             print("Nilai B")
+...     elif(nilai<70 and nilai >=60):
+...             print("Nilai C")
+...     elif(nilai<60 and nilai >=40):
+...             print("Nilai D")
+...     elif(nilai<40 and nilai >=0):
+...             print("Nilai E")
+...     else:
+...             print("Format yang anda masukkan salah")
+...
+>>> Nilai(100)
+Nilai A
+>>> Nilai(80)
+Nilai A
+>>> Nilai(79)
+Nilai B
+>>> Nilai(70)
+Nilai B
+>>> Nilai(69)
+Nilai C
+>>> Nilai(59)
+Nilai D
+>>> Nilai(49)
+Nilai D
+>>> Nilai(40)
+Nilai D
+>>> Nilai(33)
+Nilai E
+>>> Nilai(111)
+Format yang anda masukkan salah
+>>>
